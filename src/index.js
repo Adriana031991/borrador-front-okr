@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import OkrFormPage from './page/OkrFormPage';
+import KRPage from './page/KRPage'
+import Demo from './page/Demo'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <OkrFormPage/> */}
+    <KRPage/>
+    {/* <Demo/> */}
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
